@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12716921&assignment_repo_type=AssignmentRepo)
 # All Pairs Shortest Paths
 
 In the lectures, we've seen Dijkstra's algorithm for finding the shortest paths
@@ -25,3 +26,13 @@ test code from other exercises.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+### Answer
+
+The worst-case time complexity of the Floyd-Warshall algorithm is $\Theta(V^3)$, where V is the number of vertices in the graph.
+
+Create and filter each element with 0 in dist is the time complexity of $V^2$.
+
+Copy items from graph to dist involving two for loops and the time complexity of $V^2$.
+
+Three for loops for each vertex's run time is V^3. So, the total of the implementation time complexity is $V^3$.
